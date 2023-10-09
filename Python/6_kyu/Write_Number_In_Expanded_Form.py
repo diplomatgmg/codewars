@@ -1,3 +1,7 @@
+"""
+https://www.codewars.com/kata/5842df8ccbd22792a4000245
+"""
+
 def expanded_form(num):
     num, len_num = str(num), len(str(num)) - 1
     lst = []

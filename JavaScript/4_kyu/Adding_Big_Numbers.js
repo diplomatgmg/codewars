@@ -1,3 +1,7 @@
+/*
+https://www.codewars.com/kata/525f4206b73515bffb000b21
+*/
+
 function add(a, b) {    
     const maxLength = a.length > b.length ? a.length + 1 : b.length + 1
     let result = new Array(maxLength)

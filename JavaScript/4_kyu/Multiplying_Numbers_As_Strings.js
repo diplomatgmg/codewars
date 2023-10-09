@@ -1,3 +1,7 @@
+/*
+https://www.codewars.com/kata/55911ef14065454c75000062
+*/
+
 function multiply(a, b) {
     const arr1 = a.split('').map(Number).reverse();
     const arr2 = b.split('').map(Number).reverse();

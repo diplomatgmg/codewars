@@ -1,3 +1,7 @@
+/*
+https://www.codewars.com/kata/515decfd9dcfc23bb6000006
+*/
+
 function isValidIP(str) {
     const pattern = /^([0-9]{1,3}\.){3}[0-9]{1,3}$/g;
 

@@ -1,3 +1,7 @@
+"""
+https://www.codewars.com/kata/578aa45ee9fd15ff4600090d
+"""
+
 def sort_array(source_array):
     new = sorted(filter(lambda x: x % 2 != 0, source_array))
 

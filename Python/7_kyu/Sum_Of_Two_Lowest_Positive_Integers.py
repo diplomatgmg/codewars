@@ -1,3 +1,7 @@
+"""
+https://www.codewars.com/kata/558fc85d8fd1938afb000014
+"""
+
 def sum_two_smallest_numbers(numbers: list):
     min = 10**100
     predmin = 10**100 + 1

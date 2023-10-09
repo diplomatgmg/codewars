@@ -1,5 +1,10 @@
+"""
+https://www.codewars.com/kata/5503013e34137eeeaa001648
+"""
+
 def diamond(n):
     s = ''
+    # '' should equal '*\n'
     if n == 1:
         return '*\n'
 
@@ -27,3 +32,4 @@ def diamond(n):
             space += 1
 
     return s
+# "  *\n ***\n*****\n ***\n  *\n"

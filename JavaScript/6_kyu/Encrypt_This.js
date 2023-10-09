@@ -1,3 +1,7 @@
+/*
+https://www.codewars.com/kata/5848565e273af816fb000449
+*/
+
 var encryptThis = function (text) {
     const splitText = text.split(" ");
     const splitResult = [];

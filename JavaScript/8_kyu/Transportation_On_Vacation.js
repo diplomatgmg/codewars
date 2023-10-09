@@ -1,3 +1,7 @@
+/*
+https://www.codewars.com/kata/568d0dd208ee69389d000016
+*/
+
 function rentalCarCost(d) {
     let dayCost = 40
     let discount = 0

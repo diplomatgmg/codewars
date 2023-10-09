@@ -1,3 +1,7 @@
+/*
+https://www.codewars.com/kata/55c6126177c9441a570000cc
+*/
+
 function orderWeight(strng) {
     const clearSlitString = strng.replace(/\s+/, " ").split(" ");
     clearSlitString.sort((a, b) => {

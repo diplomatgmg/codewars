@@ -1,3 +1,7 @@
+/*
+https://www.codewars.com/kata/64fbfe2618692c2018ebbddb
+*/
+
 function flickSwitch(arr){
     const result = [];
 

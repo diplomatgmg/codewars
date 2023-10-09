@@ -1,3 +1,7 @@
+/*
+https://www.codewars.com/kata/54da539698b8a2ad76000228
+*/
+
 function isValidWalk(walk) {
   if (walk.length !== 10) {
     return false

@@ -1,3 +1,7 @@
+/*
+https://www.codewars.com/kata/570597e258b58f6edc00230d
+*/
+
 function array(string) {
     const splitStr = string.split(',');
 

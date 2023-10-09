@@ -1,3 +1,7 @@
+/*
+https://www.codewars.com/kata/51edd51599a189fe7f000015
+*/
+
 var solution = function (firstArray, secondArray) {
     const arrayLength = firstArray.length;
     let sum = 0;

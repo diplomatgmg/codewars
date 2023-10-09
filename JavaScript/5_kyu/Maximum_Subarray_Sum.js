@@ -1,21 +1,20 @@
-function maxSequence(arr) {
-    if (arr.length === 0) return 0;
+/*
+https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c
+*/
 
-    let maxSum = 0;
-    let index = 0;
-    let currentSum = 0;
+var maxSequence = function (arr) {
+  let max = 0;
 
-    while (index < arr.length - 1) {
-        for (let i = index; i < arr.length; i += 1) {
-            currentSum += arr[i]
+  let currentMax = 0;
+  let lastIndex = 0;
 
-            if (currentSum > maxSum) {
-                maxSum = currentSum
-            }
-        }
-        index += 1;
-        currentSum = 0;
+  while (lastIndex < arr.length) {
+    for (let i = lastIndex; i < arr.length; i += 1) {
+      currentMax += arr[i];
+      max = Math.max(max, currentMax)
     }
-
-    return maxSum
-}
+    lastIndex += 1;
+    currentMax = 0;
+  }
+  return max
+};
